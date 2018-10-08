@@ -1,0 +1,6 @@
+framework module PMZSwitch {
+  umbrella header "PMZSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

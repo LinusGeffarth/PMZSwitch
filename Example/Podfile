@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PMZSwitch_Example' do
+  pod 'PMZSwitch', :path => '../'
+
+  target 'PMZSwitch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
