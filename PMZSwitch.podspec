@@ -10,7 +10,7 @@ Yet another animated toggle made by kovpas, inspired by Andrey Mironov
 
   s.homepage         = 'https://github.com/linusgeffarth/PMZSwitch'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'linusgeffarth' => 'linus@geffarth.de' }
+  s.author           = { 'linusgeffarth' => 'linus@geffarth.com' }
   s.source           = { :git => 'https://github.com/linusgeffarth/PMZSwitch.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/linusgeffarth'
 

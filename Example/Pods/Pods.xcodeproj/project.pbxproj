@@ -11,8 +11,8 @@
 		2EC67A9E56846B5B840960100CED4684 /* Pods-PMZSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C9AE93FAC3D061615F0C3A2E092BDD /* Pods-PMZSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47FC50B668B614C8AC622B25B5FD5A0F /* Pods-PMZSwitch_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EAECFA8D91468AC3225D7030EF870C /* Pods-PMZSwitch_Example-dummy.m */; };
 		54325B19EE826FE5055D9A6B36E0A3F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		88C03C53216BFEC400192E8E /* PMZSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C03C51216BFEC400192E8E /* PMZSwitch.swift */; };
-		88C03C54216BFEC400192E8E /* PMZISwitchAnimatedThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C03C52216BFEC400192E8E /* PMZISwitchAnimatedThumb.swift */; };
+		880800A2216C07E400F5339B /* PMZSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880800A1216C07E400F5339B /* PMZSwitch.swift */; };
+		880800A4216C080200F5339B /* PMZISwitchAnimatedThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880800A3216C080200F5339B /* PMZISwitchAnimatedThumb.swift */; };
 		91C16D8C80445D91635D8B3AE25C98F6 /* Pods-PMZSwitch_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58DB1703FF1BE5CE1717409326F83E9E /* Pods-PMZSwitch_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8F3DD3D6822E64297D5C1FB8A21A775 /* PMZSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AEE527B91DAD2D13A1C6526CA7E587 /* PMZSwitch-dummy.m */; };
 		D13304F210A9A7CF949F6409FA2433E7 /* PMZSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 396A99277ADF8B893E5966F6884E6BF6 /* PMZSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -63,8 +63,8 @@
 		7FF8B9F842D7C7AD8EDF219AE76DDD99 /* PMZSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PMZSwitch.xcconfig; sourceTree = "<group>"; };
 		80490EDF2825F262540AE159E9D2330D /* PMZSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMZSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		849A4DCAC1614476EE7E60C0C2B20FE5 /* Pods-PMZSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PMZSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		88C03C51216BFEC400192E8E /* PMZSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PMZSwitch.swift; path = PMZSwitch/Classes/PMZSwitch.swift; sourceTree = "<group>"; };
-		88C03C52216BFEC400192E8E /* PMZISwitchAnimatedThumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PMZISwitchAnimatedThumb.swift; path = PMZSwitch/Classes/PMZISwitchAnimatedThumb.swift; sourceTree = "<group>"; };
+		880800A1216C07E400F5339B /* PMZSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PMZSwitch.swift; path = PMZSwitch/Classes/PMZSwitch.swift; sourceTree = "<group>"; };
+		880800A3216C080200F5339B /* PMZISwitchAnimatedThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PMZISwitchAnimatedThumb.swift; path = PMZSwitch/Classes/PMZISwitchAnimatedThumb.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A16DDA9E60A52D49CDD51761AF624E0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A774B193B502FDE193F5A897BB46573D /* Pods-PMZSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PMZSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,10 +116,10 @@
 		4CFFAB706AF7EA0FBE30B9BFADE1B11A /* PMZSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				88C03C52216BFEC400192E8E /* PMZISwitchAnimatedThumb.swift */,
-				88C03C51216BFEC400192E8E /* PMZSwitch.swift */,
 				66A80185D7FA169B7FB6E6BF351AF991 /* Pod */,
 				CBCE4E2230082ED4D8F1FAE2B215182A /* Support Files */,
+				880800A1216C07E400F5339B /* PMZSwitch.swift */,
+				880800A3216C080200F5339B /* PMZISwitchAnimatedThumb.swift */,
 			);
 			name = PMZSwitch;
 			path = ../..;
@@ -352,8 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F3DD3D6822E64297D5C1FB8A21A775 /* PMZSwitch-dummy.m in Sources */,
-				88C03C54216BFEC400192E8E /* PMZISwitchAnimatedThumb.swift in Sources */,
-				88C03C53216BFEC400192E8E /* PMZSwitch.swift in Sources */,
+				880800A4216C080200F5339B /* PMZISwitchAnimatedThumb.swift in Sources */,
+				880800A2216C07E400F5339B /* PMZSwitch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
