@@ -15,9 +15,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-- Swift 4.0
+- Swift 4.2
 - iOS 9.3+
-- Xcode 8+
+- Xcode 9+
 
 ## Installation
 
@@ -32,10 +32,10 @@ pod 'PMZSwitch'
 To use PMZSwitch, simply drag a plain `UIView` into your storyboard. Then, set its class to `PMZSwitch`.
 Now you can define:
 
-`on`: default state
-`thumbTintColor`: thumb's tint color when `on` is actually off
-`onThumbTintColor`: thumb's tint color when `on` is `true`
-`shadowColor`: thumb's shadow color when `on` is `true`
+`on`: default state  
+`thumbTintColor`: thumb's tint color when `on` is actually off  
+`onThumbTintColor`: thumb's tint color when `on` is `true`  
+`shadowColor`: thumb's shadow color when `on` is `true`  
 
 ## Author
 
